@@ -45,7 +45,7 @@ func main() {
 			}
 
 			wg.Stop()
-			fmt.Println(wg.Name(), " workers:", workers, " time:", totalTime.Milliseconds(), " ", totalTime.Milliseconds()/int64(totalRun))
+			fmt.Println(wg.Name(), " workers:", workers, " total time: ", totalTime.Milliseconds(), " avg time:", totalTime.Milliseconds()/int64(totalRun))
 		}
 	}
 }
