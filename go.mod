@@ -1,3 +1,3 @@
-module go-kafka
+module go-workerspace
 
 go 1.13
